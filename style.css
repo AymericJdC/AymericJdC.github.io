@@ -1,4 +1,4 @@
-/* Reset simple pour harmoniser les styles */
+/* Reset simple */
 * {
   margin: 0;
   padding: 0;
@@ -8,14 +8,14 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f7f9fc;
-  color: #333;
+  background-color: #1e1e2f; /* fond sombre doux */
+  color: #e0e0e0; /* texte clair */
 }
 
 /* En-tête */
 header {
-  background-color: #4a90e2;
-  color: white;
+  background-color: #2c3e50;
+  color: #f1f1f1;
   padding: 20px 0;
   text-align: center;
 }
@@ -25,7 +25,50 @@ header h1 {
 }
 
 header nav a {
-  color: white;
+  color: #f1f1f1;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections principales */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  background-color: #2c3e50; /* sections légèrement plus claires que le fond */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+}
+
+h2 {
+  color: #4a90e2; /* couleur des titres */
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #111;
+  color: #f1f1f1;
+  margin-top: 40px;
+}
+
+/* Petits effets */
+p {
+  margin-bottom: 10px;
+}
+
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
