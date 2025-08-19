@@ -10,7 +10,7 @@ body {
   line-height: 1.6;
   background-color: #1e1e2f;
   color: #e0e0e0;
-  padding: 0 20px; /* ajoute de l'espace à gauche et à droite */
+padding-left: 30px
 }
 
 main {
