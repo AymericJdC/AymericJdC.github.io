@@ -8,17 +8,15 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: 0;
-  color: #333;
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  padding: 0 20px; /* ajoute de l'espace à gauche et à droite */
 }
 
-
-
-/* Sections principales */
 main {
   max-width: 800px;
-  margin: 40px auto;
-  padding: 20 20px;
+  margin: 40px auto; /* centre le contenu horizontalement */
+  padding: 0 20px;   /* espace intérieur */
 }
 
 section {
