@@ -8,9 +8,9 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #1e1e2f;
-  color: #e0e0e0;
-padding-left: 30px
+    background-color: #fff8e7; /* crème doux */
+  color: #333;
+padding-left: 40px
 }
 
 main {
