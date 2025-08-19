@@ -27,6 +27,11 @@ ul {
   padding-left: 20px; /* réduit l'espace intérieur */
 }
 
+li {
+  margin-left: 0;   /* enlève la marge externe */
+  padding-left: 20px; /* réduit l'espace intérieur */
+}
+
 section {
   background-color: white;
   padding: 20px;
