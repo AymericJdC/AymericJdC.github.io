@@ -29,7 +29,7 @@ ul {
 
 li {
   margin-left: 0;   /* enlève la marge externe */
-  padding-left: 20px; /* réduit l'espace intérieur */
+  padding-left: 40px; /* réduit l'espace intérieur */
 }
 
 section {
