@@ -8,8 +8,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-      background-color: #000000; /* noir profond */
-  color: #f5f5f5;
+      background-color: #f5f5dc; /* beige classique */
+  color: #333
 padding-left: 30px
 }
 
