@@ -1,4 +1,4 @@
-/* Reset simple */
+/* Reset simple pour harmoniser les styles */
 * {
   margin: 0;
   padding: 0;
@@ -8,52 +8,11 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-      background-color: #0000; 
-  color: #333
-padding-left: 30px
+  background-color: #f7f9fc;
+  color: #333;
 }
 
-main {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 40px;   
-}
 
-section {
-  background-color: #2c3e50; 
-  padding: 30px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.4);
-}
-
-h2 {
-  color: #4a90e2; 
-  margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 15px 0;
-  background-color: #111;
-  color: #f1f1f1;
-  margin-top: 40px;
-}
-
-/* Petits effets */
-p {
-  margin-bottom: 10px;
-}
-
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
 
 /* Sections principales */
 main {
@@ -64,7 +23,7 @@ main {
 
 section {
   background-color: white;
-  padding: 30px;
+  padding: 20px;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
