@@ -8,7 +8,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f7f9fc;
+  background-color: #e6f7ff;
   color: #333;
   padding-left: 30px;
 }
@@ -28,8 +28,9 @@ ul {
 }
 
 li {
-  margin-left: 0;   /* enlève la marge externe */
-  padding-left: 40px; /* réduit l'espace intérieur */
+  list-style-position: inside; 
+}
+
 }
 
 section {
