@@ -16,7 +16,26 @@ body {
   padding-left: 30px;
 }
 
+/* Empêche les emails longs de déborder/coller */
+#contact a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 
+/* Sur mobile : on empile les colonnes du tableau */
+@media (max-width: 700px) {
+  #contact table,
+  #contact tbody,
+  #contact tr,
+  #contact td {
+    display: block;
+    width: 100% !important;
+  }
+
+  #contact td {
+    margin-bottom: 14px;
+  }
+}
 
 /* Sections principales */
 main {
