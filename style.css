@@ -231,3 +231,25 @@ h2 {
         font-size: 1rem;
     }
 }
+
+/* ---------- Enseignement ---------- */
+
+.teaching-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.teaching-item .pdf-link {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 2px;
+}
+
+.teaching-item .pdf-link img {
+    width: 16px !important;
+    height: 16px !important;
+    object-fit: contain;
+}
