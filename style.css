@@ -202,20 +202,18 @@ h2 {
 .publication-list a:hover {
     text-decoration: underline;
 }
-
 .pdf-link {
     display: inline-block;
-    margin-left: 6px;
+    margin-left: 5px;
     vertical-align: middle;
 }
 
 .pdf-link img {
-    width: 22px;
-    height: auto;
+    width: 16px !important;
+    height: 16px !important;
+    object-fit: contain;
     vertical-align: middle;
 }
-
-
 /* ---------- Mobile publications ---------- */
 
 @media (max-width: 600px) {
