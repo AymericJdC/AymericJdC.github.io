@@ -1,83 +1,161 @@
-/* Reset simple pour harmoniser les styles */
+/* ---------- Général ---------- */
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #dbf2ff;
-  background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png");
-    background-repeat: repeat;
-  /*background-color: #e6f7ff;*/
-  color: #333;
-  padding-left: 30px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+    background-color: #f7f8fa;
+    line-height: 1.6;
 }
 
-/* Empêche les emails longs de déborder/coller */
-#contact a {
-  overflow-wrap: anywhere;
-  word-break: break-word;
+
+/* ---------- En-tête ---------- */
+
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #dddddd;
 }
 
-/* Sur mobile : on empile les colonnes du tableau */
-@media (max-width: 700px) {
-  #contact table,
-  #contact tbody,
-  #contact tr,
-  #contact td {
-    display: block;
-    width: 100% !important;
-  }
-
-  #contact td {
-    margin-bottom: 14px;
-  }
+.header-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 55px 30px 30px;
+    text-align: left;
 }
 
-/* Sections principales */
+.header h1 {
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #17365d;
+}
+
+.position {
+    margin: 6px 0 0;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.institution {
+    margin-top: 12px;
+    color: #666;
+    font-size: 1rem;
+}
+
+
+/* ---------- Navigation ---------- */
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+    color: #17365d;
+    border-bottom-color: #17365d;
+}
+
+
+/* ---------- Contenu ---------- */
+
 main {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-ul {
-  margin-left: 0;   /* enlève la marge externe */
-  padding-left: 20px; /* réduit l'espace intérieur */
-}
-
-li {
-  list-style-position: inside; 
-}
-
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 30px;
 }
 
 section {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: white;
+    padding: 30px 35px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+    text-align: left;
 }
 
 h2 {
-  color: #4a90e2;
-  margin-bottom: 10px;
+    margin-top: 0;
+    color: #17365d;
+    font-size: 1.45rem;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 15px 0;
-  background-color: #333;
-  color: white;
-  margin-top: 40px;
+
+/* ---------- Recherche ---------- */
+
+.research-list {
+    padding-left: 22px;
+    margin-bottom: 0;
 }
 
-/* Petits effets */
-p {
-  margin-bottom: 10px;
+.research-list li {
+    margin: 8px 0;
+}
+
+
+/* ---------- Contact ---------- */
+
+.contact {
+    text-align: left;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #17365d;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    .header-content {
+        padding: 35px 20px 20px;
+    }
+
+    .header h1 {
+        font-size: 1.9rem;
+    }
+
+    .position {
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 0 15px;
+        margin-top: 25px;
+    }
+
+    section {
+        padding: 22px;
+    }
+
+    nav {
+        gap: 20px;
+    }
 }
